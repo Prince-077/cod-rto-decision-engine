@@ -1,0 +1,19 @@
+[project]
+name = "soft"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Prince-077", email = "119718473+Prince-077@users.noreply.github.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+soft = "soft:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
